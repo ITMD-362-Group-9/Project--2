@@ -393,9 +393,11 @@ body{
 }
 
 .container{
-	position: relative;
+	position: relative
 }
-
+#header{
+	text-align: center;
+	font-size: 4.236em;
 
 @import "http://fonts.googleapis.com/css?family=Raleway";
 /*----------------------------------------------
