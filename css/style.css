@@ -398,6 +398,41 @@ body{
 #header{
 	text-align: center;
 	font-size: 4.236em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: blue;
+}
+
+#menu{
+	display: block;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#menu input{
+	display: block;
+	width: 20px;
+	height: 32px;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+	-webkit-touch-callout: none;
+}
+	
 
 @import "http://fonts.googleapis.com/css?family=Raleway";
 /*----------------------------------------------
