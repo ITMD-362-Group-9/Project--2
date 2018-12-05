@@ -443,9 +443,12 @@ border-top:1px solid #ccc
 
 /* css for index page */
 
-footer{
+div#footer{
 	padding-top: 40px;
+	padding-bottom:40px;
 }
+
+/* Style Social Media Button */
 
 .fa {
   padding: 20px;
