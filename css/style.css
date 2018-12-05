@@ -386,6 +386,17 @@ template {
 
 /** My Styles - Bhumika Patel**/
 
+/*css for index.html */
+
+body{
+	font-family: Tangerine;
+}
+
+.container{
+	position: relative;
+}
+
+
 @import "http://fonts.googleapis.com/css?family=Raleway";
 /*----------------------------------------------
 CSS settings for HTML div Exact Center
