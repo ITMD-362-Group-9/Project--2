@@ -388,7 +388,7 @@ template {
 
 /*css for index.html */
 
-BODY{
+body{
 	font-family: Tangerine, Sofia;
 }
 
@@ -398,6 +398,12 @@ header{
 	text-align: center;
 	font-size: 4.3em;
 }
+
+header h1{
+	font-size: 1.7em;
+	text-indent: 1em;
+}
+
 
 .logo{
 	border: 0 none;
@@ -410,6 +416,7 @@ header{
 
 .logo img{
 	float: left;
+	display: block;
 }
 
 .logo p{
