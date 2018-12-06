@@ -388,16 +388,39 @@ template {
 
 /*css for index.html */
 
-body{
-	font-family: Tangerine;
+BODY{
+	font-family: Tangerine, Sofia;
+}
+
+header{
+	margin-top:75px;
+	display: block;
+	text-align: center;
+	font-size: 4.3em;
+}
+
+.logo{
+	border: 0 none;
+	padding: 10px;
+	width: auto;
+	margin: 0;
+	height: 200px;
+	text-align: center;
+}
+
+.logo img{
+	float: left;
+}
+
+.logo p{
+	padding: 30px;
+	font-size: 3.2em;
+	line-height: 50px;
+	color:white;
 }
 
 .container{
 	position: relative
-}
-#header{
-	text-align: center;
-	font-size: 4.236em;
 }
 
 a{
