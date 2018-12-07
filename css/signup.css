@@ -387,20 +387,28 @@ template {
 /** My Styles for signUp Form - Bhumika Patel**/
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Noto Serif', serif;
+	font-family: 'Dosis', sans-serif;
 	text-align: center;
 	background-color: white;
 	margin-top: 30px;
 }
 
-h2 {
-	font-size: 2.3vw;
+h1 {
+	font-size: 2.222vw;
+	color: #00008B;
 	font-weight: 200;
 	margin: 30px;
 }
 
+p {
+  padding-bottom: 8px;
+  padding-top: 20px;
+}
+
 label {
   font-size: 0.988vw;
+  color: #00008B;
   display: inline-block;
   width: 20%;
   text-align: right;
@@ -421,15 +429,29 @@ input {
 
 button {
   border: none;
-  border-radius: 20px;
   margin-top: 5%;
   margin-bottom: 10%;
   width: 30%;
   padding: 3%;
-  background-color: #303030;
+  background-color: #00008B;
   font-weight: bold;
   color: aliceblue;
 }
 
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px;
+  display: inline-block;
+  margin: 1rem;
+  margin-top: 50px;
+  position: relative;
+  width: 30%;
+}
 
+.card-1 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+	
 	
