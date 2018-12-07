@@ -898,11 +898,16 @@ border:0;
 border-top:1px solid #ccc
 } */
 
-/* css for index page */
 
-div#footer{
-	padding-top: 40px;
-	padding-bottom:40px;
+footer{
+  background-color: #E8E8E8;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* Style Social Media Button */
