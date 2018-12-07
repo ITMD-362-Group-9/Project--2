@@ -18,4 +18,3 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Chang  
 }
 
-
