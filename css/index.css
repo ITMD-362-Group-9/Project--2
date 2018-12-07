@@ -15,18 +15,7 @@ header{
 }
 
 h1{
-	font-size: 4.5em
-}
-
-h2{ 
-	background-color: #E8E8E8;
-	text-align: center;
-	font-size: 50px; 
-}
-
-p { 
-  text-align: center; 
-  font-size: 25px;
+	font-size:1em;
 }
 
 .logo{
@@ -51,7 +40,7 @@ p {
 }
 
 .container{
-	position: relative
+	position: relative;
 }
 
 a{
@@ -194,25 +183,8 @@ transform: none;
   height: auto; 
 }
 
-.blue{ 
-  width: 50%;
-  height: 200px;
-  float: left;
-  background-color: white;
-  border: 10px;
-  border-color: white;
-  border-style: solid;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding-left: 50%;
-  padding-right: 50%;
-
-}
-
-.blue:before {
-  position: absolute;
-  padding: 10px;
+.active {
+background-color: #717171;
 }
 
 @media screen and (max-width: 1260px) {
@@ -220,6 +192,12 @@ transform: none;
       width: 50%;
   }
 }
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
 
 @media screen and (max-width: 840px) {
   .blue {
@@ -384,6 +362,17 @@ transform: none;
 
 .button div a{ 
   text-decoration: none; 
+}
+
+h2{ 
+	background-color: #E8E8E8;
+	text-align: center;
+	font-size: 50px; 
+}
+
+p { 
+  text-align: center; 
+  font-size: 25px;
 }
 
 footer{
