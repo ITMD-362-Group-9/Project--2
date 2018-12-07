@@ -3,9 +3,9 @@ body{
   font-family: Tangerine
 }
 .container{
-  position: relative;
+  position: relative
 }
-#header{ 
+header{ 
   text-align: center; 
   font-size: 125px;
 }
@@ -229,9 +229,6 @@ h2{
 	text-align: center; 
 	font-family: Sofia; 
 	font-size: 50px; 
-}
-
-h3{
 }
 
 p { 
